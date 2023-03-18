@@ -1,0 +1,176 @@
+/* Styles for header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#login{
+  margin-left: 1030px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 2px solid #0077c0;
+  border-radius: 4px;
+  color: #0077c0;
+  font-weight: bold;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+nav a:hover {
+  background-color: #0077c0;
+  color: #fff;
+}
+
+nav .active {
+  background-color: #0077c0;
+  color: #fff;
+}
+
+/* Styles for image */
+img {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.carousel {
+  position: relative;
+  margin: 50px auto;
+  width: 80%;
+}
+
+.carousel-images {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+.carousel-images img {
+  width: auto;
+  height: 50%;
+  object-fit: contain;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #fff;
+  color: #000;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Styles for about section */
+.about-section {
+	margin: 50px;
+	padding: 50px;
+	background-color: #f2f2f2;
+}
+
+.about-section h2 {
+  margin-bottom: 20px;
+  margin-left: 75%;
+}
+
+.about-section p {
+  margin-bottom: 30px;
+  margin-left: 62%;
+}
+
+.about-section img {
+  max-width: 50%;
+  height: 300px;
+  }
+
+/* Styles for contact form */
+.contact-section h2 {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.contact-section {
+  text-align: center;
+}
+
+.contact-section form {
+  display: inline-block;
+  text-align: left;
+}
+
+.contact-section form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact-section form input,
+.contact-section form textarea {
+  display: block;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contact-section form input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-section form input[type="submit"]:hover {
+  background-color: #0062cc;
+}
+
+/* Styles for footer */
+footer {background-color: #f2f2f2;
+  padding:20px;
+  text-align: center;
+  font-size: 14px;
+  color: #0f0e0e;  
+  width: 100%;
+  }
+  

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+	<link rel="stylesheet" type="text/css" href="site.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#" class="active">Home</a></li>
+				<li><a href="">About</a></li>
+				<li><a href="">Contact</a></li>
+				<li><a id="login" href="login.html">Login</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="carousel">
+		<button class="prev">&#10094;</button>
+		<button class="next">&#10095;</button>
+		<div class="carousel-images">
+			<img src="images/wp8676116-cool-pc-wallpapers.jpg" alt="My Image">
+		</div>
+	</div>
+
+	<main>
+		<section class="about-section">
+			<h2>About Us</h2>
+			<p>We are a team of passionate developers creating awesome websites!</p>
+			<img src="images/Screenshot_2023-02-27-18-59-37-38.jpg" alt="image">
+		</section>
+
+		<section class="contact-section">
+			<h2>Contact Us</h2>
+			<form>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<br>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+				<br>
+				<input type="submit" value="Send">
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 My Website. All rights reserved.</p>
+	</footer>
+</body>
+</html>
